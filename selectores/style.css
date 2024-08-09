@@ -1,0 +1,30 @@
+p::before{
+    content: "Clase: ";
+    
+    
+}
+
+p::after{
+    content: " 💻";
+}
+
+::placeholder{
+    color: darkcyan;
+    font-weight: bold;
+}
+
+p:hover{
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div p:nth-child(2){
+    color: red;
+
+}
+
+div p:nth-child(2):hover{
+    color: darkred;
+
+}
